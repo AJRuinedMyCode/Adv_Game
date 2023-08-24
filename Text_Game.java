@@ -126,16 +126,16 @@ public static void main(String[] args) {
         input = in.nextLine();
       }
 
-      if (input.equals("4")) {
+    if (input.equals("4")) {
         System.out.println("Your adventure continues");
-      }
+    }
 
-      else if (input.equals("5")) {
+    else if (input.equals("5")) {
         System.out.println("You exit the jungle, successful from your         adventure");
         break;
-      }
+}
     }
     System.out.println(" Thanks for playing");
 
-  }
+}
 }
